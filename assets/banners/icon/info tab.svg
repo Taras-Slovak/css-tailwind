@@ -1,0 +1,8 @@
+<svg id="info_tab" data-name="info tab" xmlns="http://www.w3.org/2000/svg" width="8" height="32" viewBox="0 0 8 32">
+  <path id="Rectangle_782" data-name="Rectangle 782" d="M0,0H2A6,6,0,0,1,8,6V26a6,6,0,0,1-6,6H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" fill="#adadad"/>
+  <g id="Group_135" data-name="Group 135" transform="translate(-923 1284) rotate(-90)">
+    <circle id="Ellipse_34" data-name="Ellipse 34" cx="2" cy="2" r="2" transform="translate(1259 925)" fill="#efefef"/>
+    <circle id="Ellipse_35" data-name="Ellipse 35" cx="2" cy="2" r="2" transform="translate(1266 925)" fill="#efefef"/>
+    <circle id="Ellipse_36" data-name="Ellipse 36" cx="2" cy="2" r="2" transform="translate(1273 925)" fill="#efefef"/>
+  </g>
+</svg>
