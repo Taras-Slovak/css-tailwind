@@ -20,15 +20,21 @@
       <img class="block w-[53.8px]" src="assets/auth/adwoy.svg" alt="logo">
       <p class="text-[25px] text-[#4C4C4C] font-bold">adwoy</p>
     </div>
-    <h2 class="mt-[38px] text-[16px] text-[#76767E]">WELCOME BACK! Please login:</h2>
+    <h2 class="mt-[38px] text-[16px] text-[#76767E]">Please create your Adwoy account:</h2>
     <form class="mt-[47px]" action="">
 
       <div class="relative group flex flex-col text-[#43425D]">
-        <input class="h-[20px] outline-0 border-b" type="text" name="firs" id="firs">
+        <input class="h-[20px] outline-0 border-b" type="text" name="email" id="email">
         <label
           class="absolute top-[-7px] text-[#43425D] text-[14px] transition-all group-focus-within:translate-y-[-20px]"
-          for="firs">Username or
-          Email</label>
+          for="email">Email</label>
+      </div>
+
+      <div class="relative group flex mt-[37px] flex-col text-[#43425D]">
+        <input class="h-[20px] outline-0 border-b" type="text" name="username" id="username">
+        <label
+          class="absolute top-[-7px] text-[#43425D] text-[14px] transition-all group-focus-within:translate-y-[-20px]"
+          for="username">Username</label>
       </div>
 
       <div class="relative group flex mt-[37px] flex-col text-[#43425D]">
@@ -38,10 +44,9 @@
           for="password">Password</label>
       </div>
 
-      <a href="#" class="flex mt-[8px] text-[12px]">
-        <p class="text-[#76767E] mr-[3px]">Reset Password for</p>
-        <p class="mr-[3px] text-[#3B86FF] font-semibold">youremail@yourdomain.com</p>
-        <p class="text-[#76767E]">?</p>
+      <a href="#" class="flex items-center mt-[8px] text-[12px]">
+        <p class="text-[#76767E] mr-[5px]">generate random password</p>
+        <img class="w-[12px] h-[auto]" src="assets/auth/next.svg" alt="next">
       </a>
 
       <div class="flex items-center mt-[28px] gap-[5px]">
@@ -49,15 +54,16 @@
         <input
           class="box w-[16px] h-[16px] border border-[#808495] rounded appearance-none transition-all cursor-pointer checked:bg-[#3B86FF] checked:border-[#3B86FF] "
           type="checkbox" name="remember" id="remember">
-        <label class="text-[#43425D] text-[12px] ml-[5px]" for="remember">Remember me</label>
+        <label class="text-[#43425D] text-[12px] ml-[5px]" for="remember">I agree with terms and conditions</label>
       </div>
       <button type="button"
-        class="block w-[135px] h-[36px] mx-auto mt-[38px] bg-[#3B86FF] text-[#FFFFFF] text-[16px] rounded-[22px]">Login</button>
+        class="block w-[135px] h-[36px] mx-auto mt-[38px] bg-[#3B86FF] text-[#FFFFFF] text-[16px] rounded-[22px]">Sign
+        up</button>
     </form>
 
-    <a href="auth_sign-up.html" class="flex items-center mt-[30px] text-[14px]">
+    <a href="auth_login.html" class="flex items-center mt-[30px] text-[14px]">
       <p>No account yet?</p>
-      <p class="font-semibold text-[#3B86FF] ml-[3px]">Sign up</p>
+      <p class="font-semibold text-[#3B86FF] ml-[3px]">Login</p>
     </a>
 
     <p class="mt-[27px] mb-[42px] text-[#43425D] text-[11px] font-['Source_Sans_Pro']">Term of use. Privacy policy</p>
