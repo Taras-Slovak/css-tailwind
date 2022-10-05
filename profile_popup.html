@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Roboto:wght@300;400&family=Source+Sans+Pro&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Document</title>
+</head>
+
+<body class="relative bg-[#F7F7F7]">
+
+  <header class="max-w-[100%] bg-[#fff]">
+    <nav style="box-shadow: 0 4px 2px -2px #0000000A;" class="flex 
+    h-[70px] justify-between w-full items-center">
+      <div class="flex ml-8">
+        <img class="w-[34px] h-[37px]" src="assets/header/adwoy.svg" alt="icon">
+        <a href="index.html" class="flex items-center ml-12">
+          <img class="rotate-90 mr-[7px] mt-[-3px] w-[10px]" src="assets/header/arrow.svg" alt="arrow">
+          <p class="mr-[22px] text-[17px]  text-[#A5A7A9] font-['Nunito'] transition-all hover:text-[#43425D]">
+            Projects
+          </p>
+        </a>
+      </div>
+
+      <span class="text-[22px] text-[#43425D] font-['Nunito']">Profile details</span>
+
+      <div class="flex">
+        <button class="mr-7">
+          <img src="assets/header/notifications.svg" alt="">
+        </button>
+
+        <button class="flex items-center mr-5">
+          <img class="w-[11px]" src="assets/header/triangle.svg" alt="">
+          <div class="rounded-full w-[38px] h-[38px] ml-2.5">
+            <img class="w-full block " src="assets/header/avatar.png" alt="">
+          </div>
+        </button>
+      </div>
+    </nav>
+
+  </header>
+
+  <div class="absolute  top-[60px] right-[20px] w-[302.61px] z-20	mx-auto
+  after:h-[100%] after:w-[100%] after:top-[0] after:left-[0] after:bg-[red] 
+  before:w-[20px] before:h-[20px] before:rotate-45 before:absolute before:z-10 before:bg-[#fff] before:top-[-3px] before:left-[calc(90%)] 
+  before:shadow-[0px_2px_10px_#00000027]
+  ">
+    <div
+      class="flex flex-col items-center justify-center w-[100%] h-[221px] bg-[#fff] relative  z-10 shadow-[0px_2px_10px_#00000027]">
+      <div class="w-[254.37px]">
+
+        <div class="flex gap-[17px]  fornt-['Source_Sans_Pro'] ">
+          <img class="block w-[64.88px] h-[64.88px] rounded-full object-cover"
+            src="assets/avatar/8dd09c7ef8b46affbd07702a528f0af9.png" alt="avatar">
+          <div>
+            <p class="text-[16px] text-[#43425D]">Username</p>
+            <p class="text-[13px] text-[#808495]">andriusdeveloper@gmail.com</p>
+            <button type="button"
+              class="w-[86.85px] h-[18.21px] mt-[13px] bg-[#D7D7D7] text-[#43425D] text-[12px] rounded-[16px]">View
+              profile</button>
+          </div>
+
+        </div>
+
+        <span class="block w-[100%] h-[2px] mt-[13px] bg-[#D7D7D7]"></span>
+
+        <div class="flex gap-[25px] mt-[23px] fornt-['Source_Sans_Pro']">
+          <p class="text-[16px] text-[#43425D] ">AdWoy plan: FREE</p>
+          <button
+            class="w-[86.85px] h-[18.21px] text-[#FFFFFF] text-[12px] bg-[#FF0033] rounded-[16px] font-['Roboto']">UPGRADE</button>
+
+        </div>
+        <button class="m-[24px] ml-[0] font-[16px] text-[#43425D91]" type="button">Log out</button>
+      </div>
+
+    </div>
+  </div>
+
+  <div style="box-shadow: 0px 3px 6px #0000000A;"
+    class="block relative max-w-[576px]  mt-[122px] mx-auto pt-[58px] bg-[#fff]">
+
+
+    <div class="flex font-['Source_Sans_Pro']">
+      <div class="w-[200px] ml-[89px]">
+        <a href="#">
+          <p class="text-center text-[#3B86FF] font-['Roboto']">Account details</p>
+          <span class="block mx-auto mt-[12px] w-[188px] h-[2px] bg-[#3B86FF]"></span>
+        </a>
+
+        <div class="mt-[95px]">
+
+          <div class="relative group flex flex-col text-[#43425D]">
+            <input class="h-[20px] outline-0 border-b" type="text" name="first-name" id="first-name">
+            <label
+              class="absolute top-[-7px] text-[#43425D] text-[14px] transition-all group-focus-within:translate-y-[-20px]"
+              for="first-name">First name</label>
+          </div>
+
+          <div class="relative group flex mt-[45px] flex-col text-[#43425D]">
+            <input class="h-[20px] outline-0 border-b" type="text" name="last-name" id="last-name">
+            <label
+              class="absolute top-[-7px] text-[#43425D] text-[14px] transition-all group-focus-within:translate-y-[-20px]"
+              for="last-name">Last name</label>
+          </div>
+
+          <div class="relative group flex mt-[45px] flex-col text-[#43425D]">
+            <input class="h-[20px] outline-0 border-b" type="text" name="user-name" id="user-name">
+            <label
+              class="absolute top-[-7px] text-[#43425D] text-[14px] transition-all group-focus-within:translate-y-[-20px]"
+              for="user-name">User name</label>
+          </div>
+
+          <div class="relative group flex mt-[45px] flex-col text-[#43425D]">
+            <input class="h-[20px] outline-0 border-b" type="text" name="email" id="email">
+            <label
+              class="absolute top-[-7px] text-[#43425D] text-[14px] transition-all group-focus-within:translate-y-[-20px]"
+              for="email">Email</label>
+          </div>
+        </div>
+      </div>
+      <div class="ml-[25px]">
+        <a href="profile_password.html">
+          <p class="text-center text-[#43425D]">Password</p>
+          <span class="block invisible mx-auto mt-[12px] w-[188px] h-[2px] bg-[#3B86FF]"></span>
+        </a>
+      </div>
+      <div class="absolute right-[0] mt-[107px] mr-[81px]">
+        <a href="#"
+          class="block w-[100px] h-[100px] transition-all bg-[url('/assets/profile/DG.svg')] hover:bg-[url('/assets/profile/drop.svg')]"></a>
+        <div class="flex flex-col mt-[24px] gap-[7px] text-[12px] text-[#43425D]">
+          <button class="bg-[#EFEFEF] rounded-[14px]" type="button">Add/Change</button>
+          <button class="bg-[#EFEFEF] rounded-[14px]" type="button">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex gap-[20px] w-[max-content] mx-auto">
+      <button type="button"
+        class="block w-[151px] h-[38px] mx-auto mt-[38px] bg-[#8B8B8B] text-[#FFFFFF] text-[16px] rounded-[4px]">Cancel
+      </button>
+      <button type="button"
+        class="block w-[151px] h-[38px] mx-auto mt-[38px] bg-[#3B86FF] text-[#FFFFFF] text-[16px] rounded-[4px]">Update
+        profile
+      </button>
+    </div>
+
+    <a class="block underline w-[max-content] mx-auto mt-[43px] pb-[89px] text-center" href="#">Want to remove your
+      account
+      completely?
+    </a>
+  </div>
+
+</body>
+
+</html>
