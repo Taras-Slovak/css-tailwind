@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Open+Sans:wght@400;700&family=Roboto:wght@700&family=Source+Sans+Pro&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Document</title>
+</head>
+
+<body class="bg-[#F7F7F7]">
+
+  <header class="max-w-[100%] bg-[#fff]">
+    <nav style="box-shadow: 0 4px 2px -2px #0000000A;" class="flex 
+    h-[70px] justify-between w-full items-center">
+      <div class="flex ml-8">
+        <img class="w-[34px] h-[37px]" src="assets/header/adwoy.svg" alt="icon">
+        <button class="flex items-center ml-12">
+          <p class="mr-[22px] text-[22px] text-[#43425D] font-['Nunito'] font-normal">
+            Projects
+          </p>
+          <img src="assets/header/search.svg" alt="search">
+        </button>
+      </div>
+
+      <a link href="#" class="w-[82px] h-[32px] group flex justify-center items-center rounded-2xl border-2 border-solid 
+      border-[#3583FF] transition-all  hover:bg-[#3583FF] hover:w-[87px]">
+        <p class="text-[14px] text-[#43425D] font-['Nunito'] font-semibold transition-all group-hover:text-white">
+          NEW
+        </p>
+        <span
+          class="text-[22px] mb-1 ml-2 text-[#43425D] -rotate-180 transition-all group-hover:text-white translate-y-0.5 group-hover:rotate-180 font-['Nunito'] font-semibold">+</span>
+      </a>
+
+      <div class="flex">
+        <button class="mr-7">
+          <img src="assets/header/notifications.svg" alt="">
+        </button>
+
+        <button class="flex items-center mr-5">
+          <img class="w-[11px]" src="assets/header/triangle.svg" alt="">
+          <div class="rounded-full w-[38px] h-[38px] ml-2.5">
+            <img class="w-full block " src="assets/header/avatar.png" alt="">
+          </div>
+
+        </button>
+      </div>
+
+
+    </nav>
+
+  </header>
+
+  <main class="max-w-[1600px] m-auto px-[10px] xl:px-[0px]">
+    <div class="max-w-[1260px] m-auto">
+      <section class="flex justify-between pt-[64px] font-['Nunito']">
+        <div class="flex items-center gap-x-2">
+          <p class="text-[26px] text-[#8E4620]">Archived Projects</p>
+
+
+        </div>
+
+        <div>
+          <label class="text-[16px]" for="sorting">Sorting:</label>
+          <select style="box-shadow: 0px 1px 3px #00000010;"
+            class="w-[107px] px-2 text-[#43425D] text-[14px] rounded-[16px] outline-none" name="sorting">
+            <option class="px-2 text-[#43425D] " value="date">Date</option>
+            <option class="px-2 text-[#43425D] " value="name">Name</option>
+            <option class="px-2 text-[#43425D] " value="approved">Approved</option>
+            <option class="px-2 text-[#43425D]" value="in-progress">In progress</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="mt-[9px] flex flex-wrap justify-center gap-x-5 gap-y-5">
+        <div class="w-[300px]">
+          <div style="background-image: url('assets/cards/pic/Intersection 1@2x.png');"
+            class="h-[180px] flex justify-between bg-no-repeat bg-cover bg-center">
+            <a href="#" class="ml-[12px] mt-[12px]">
+              <img src="assets/cards/icon/Group 31.svg" alt="settings">
+            </a>
+            <a href="#" class="mr-[12px] mt-[12px]">
+              <img src="assets/cards/icon/icon aproved.svg" alt="">
+            </a>
+          </div>
+
+          <div class="px-[19px] py-[15px] bg-[#FFFFFF]">
+            <div class="font-['Nunito']">
+              <h3 class="text-[#4D4F5C] text-[14px] font-bold">
+                CityBee new cars presentation
+              </h3>
+              <p class="mt-[2px] text-[12px] text-[#555555] font-normal">4 HTML / 1 static / 4 GIF</p>
+            </div>
+
+            <div class="mt-[12px] flex items-end justify-between">
+              <div class="flex ml-[15px]">
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/8dd09c7ef8b46affbd07702a528f0af9@2x.png" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block w-[100%] object-cover w-[36px] h-[36px]" src="assets/avatar/20.jpg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block w-[100%] object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/egozentrische-person.jpg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/28b56ebe831c3dd2dbe9b01da9da4971.jpeg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px] " src="assets/avatar/james-segil.jpg" alt="icon">
+                </div>
+              </div>
+
+              <div class="flex items-center text-[#ADADAD] text-[12px] font-['Open Sans']">
+                <div class="flex">
+                  <img class="mr-[2px]" src="assets/cards/icon/Icon feather-message-circle.svg"
+                    alt="feather-message-circle">
+                  <p>2</p>
+                </div>
+                <p class="ml-[13px]">Nov 21, 2019</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-[300px]">
+          <div style="background-image: url('assets/cards/pic/Intersection\ 1-1@2x.png');"
+            class="h-[180px] flex justify-between bg-no-repeat bg-cover bg-center">
+            <a href="#" class="ml-[12px] mt-[12px]">
+              <img src="assets/cards/icon/Group 31.svg" alt="settings">
+            </a>
+            <a href="#" class="mr-[12px] mt-[12px]">
+              <img src="assets/cards/icon/icon aproved.svg" alt="">
+            </a>
+          </div>
+
+          <div class="px-[19px] py-[15px] bg-[#FFFFFF]">
+            <div class="font-['Nunito']">
+              <h3 class="text-[#4D4F5C] text-[14px] font-bold">
+                Tony Stark
+              </h3>
+              <p class="mt-[2px] text-[12px] text-[#555555] font-normal">4 HTML Banners</p>
+            </div>
+
+            <div class="mt-[12px] flex items-end justify-between">
+              <div class="flex ml-[15px]">
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/8dd09c7ef8b46affbd07702a528f0af9@2x.png" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block w-[100%] object-cover w-[36px] h-[36px]" src="assets/avatar/20.jpg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block w-[100%] object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/egozentrische-person.jpg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/28b56ebe831c3dd2dbe9b01da9da4971.jpeg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px] " src="assets/avatar/james-segil.jpg" alt="icon">
+                </div>
+              </div>
+
+              <div class="flex items-center text-[#ADADAD] text-[12px] font-['Open Sans']">
+                <div class="flex">
+                  <img class="mr-[2px]" src="assets/cards/icon/Icon feather-message-circle.svg"
+                    alt="feather-message-circle">
+                  <p>2</p>
+                </div>
+                <p class="ml-[13px]">Nov 21, 2019</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-[300px]">
+          <div style="background-image: url('assets/cards/pic/Intersection 1-2@2x.png');"
+            class="h-[180px] flex justify-between bg-no-repeat bg-cover bg-center">
+            <a href="#" class="ml-[12px] mt-[12px]">
+              <img src="assets/cards/icon/Group 31.svg" alt="settings">
+            </a>
+            <a href="#" class="mr-[12px] mt-[12px]">
+              <img src="assets/cards/icon/icon aproved.svg" alt="">
+            </a>
+          </div>
+
+          <div class="px-[19px] py-[15px] bg-[#FFFFFF]">
+            <div class="font-['Nunito']">
+              <h3 class="text-[#4D4F5C] text-[14px] font-bold">
+                Bessie Berry
+              </h3>
+              <p class="mt-[2px] text-[12px] text-[#555555] font-normal">4 HTML / 1 static / 4 GIF</p>
+            </div>
+
+            <div class="mt-[12px] flex items-end justify-between">
+              <div class="flex ml-[15px]">
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/8dd09c7ef8b46affbd07702a528f0af9@2x.png" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block w-[100%] object-cover w-[36px] h-[36px]" src="assets/avatar/20.jpg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block w-[100%] object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/egozentrische-person.jpg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/28b56ebe831c3dd2dbe9b01da9da4971.jpeg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px] " src="assets/avatar/james-segil.jpg" alt="icon">
+                </div>
+              </div>
+
+              <div class="flex items-center text-[#ADADAD] text-[12px] font-['Open Sans']">
+                <div class="flex">
+                  <img class="mr-[2px]" src="assets/cards/icon/Icon feather-message-circle.svg"
+                    alt="feather-message-circle">
+                  <p>2</p>
+                </div>
+                <p class="ml-[13px]">Nov 21, 2019</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-[300px]">
+          <div style="background-image: url('assets/cards/pic/Intersection 1@2x.png');"
+            class="h-[180px] flex justify-between bg-no-repeat bg-cover bg-center">
+            <a href="#" class="ml-[12px] mt-[12px]">
+              <img src="assets/cards/icon/Group 31.svg" alt="settings">
+            </a>
+            <a href="#" class="mr-[12px] mt-[12px]">
+              <img src="assets/cards/icon/icon aproved.svg" alt="">
+            </a>
+          </div>
+
+          <div class="px-[19px] py-[15px] bg-[#FFFFFF]">
+            <div class="font-['Nunito']">
+              <h3 class="text-[#4D4F5C] text-[14px] font-bold">
+                CityBee new cars presentation
+              </h3>
+              <p class="mt-[2px] text-[12px] text-[#555555] font-normal">4 HTML / 1 static / 4 GIF</p>
+            </div>
+
+            <div class="mt-[12px] flex items-end justify-between">
+              <div class="flex ml-[15px]">
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/8dd09c7ef8b46affbd07702a528f0af9@2x.png" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block w-[100%] object-cover w-[36px] h-[36px]" src="assets/avatar/20.jpg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block w-[100%] object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/egozentrische-person.jpg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/28b56ebe831c3dd2dbe9b01da9da4971.jpeg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px] " src="assets/avatar/james-segil.jpg" alt="icon">
+                </div>
+              </div>
+
+              <div class="flex items-center text-[#ADADAD] text-[12px] font-['Open Sans']">
+                <div class="flex">
+                  <img class="mr-[2px]" src="assets/cards/icon/Icon feather-message-circle.svg"
+                    alt="feather-message-circle">
+                  <p>2</p>
+                </div>
+                <p class="ml-[13px]">Nov 21, 2019</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-[300px]">
+          <div style="background-image: url('assets/cards/pic/Intersection 1-5@2x.png');"
+            class="h-[180px] flex justify-between bg-no-repeat bg-cover bg-center">
+            <a href="#" class="ml-[12px] mt-[12px]">
+              <img src="assets/cards/icon/Group 31.svg" alt="settings">
+            </a>
+            <a href="#" class="mr-[12px] mt-[12px]">
+              <img src="assets/cards/icon/icon aproved.svg" alt="">
+            </a>
+          </div>
+
+          <div class="px-[19px] py-[15px] bg-[#FFFFFF]">
+            <div class="font-['Nunito']">
+              <h3 class="text-[#4D4F5C] text-[14px] font-bold">
+                CityBee new cars presentation
+              </h3>
+              <p class="mt-[2px] text-[12px] text-[#555555] font-normal">4 HTML / 1 static / 4 GIF</p>
+            </div>
+
+            <div class="mt-[12px] flex items-end justify-between">
+              <div class="flex ml-[15px]">
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/8dd09c7ef8b46affbd07702a528f0af9@2x.png" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block w-[100%] object-cover w-[36px] h-[36px]" src="assets/avatar/20.jpg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block w-[100%] object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/egozentrische-person.jpg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/28b56ebe831c3dd2dbe9b01da9da4971.jpeg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px] " src="assets/avatar/james-segil.jpg" alt="icon">
+                </div>
+              </div>
+
+              <div class="flex items-center text-[#ADADAD] text-[12px] font-['Open Sans']">
+                <div class="flex">
+                  <img class="mr-[2px]" src="assets/cards/icon/Icon feather-message-circle.svg"
+                    alt="feather-message-circle">
+                  <p>2</p>
+                </div>
+                <p class="ml-[13px]">Nov 21, 2019</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-[300px]">
+          <div style="background-image: url('assets/cards/pic/Intersection 1-6@2x.png');"
+            class="h-[180px] flex justify-between bg-no-repeat bg-cover bg-center">
+            <a href="#" class="ml-[12px] mt-[12px]">
+              <img src="assets/cards/icon/Group 31.svg" alt="settings">
+            </a>
+            <a href="#" class="mr-[12px] mt-[12px]">
+              <img src="assets/cards/icon/icon aproved.svg" alt="">
+            </a>
+          </div>
+
+          <div class="px-[19px] py-[15px] bg-[#FFFFFF]">
+            <div class="font-['Nunito']">
+              <h3 class="text-[#4D4F5C] text-[14px] font-bold">
+                CityBee new cars presentation
+              </h3>
+              <p class="mt-[2px] text-[12px] text-[#555555] font-normal">4 HTML / 1 static / 4 GIF</p>
+            </div>
+
+            <div class="mt-[12px] flex items-end justify-between">
+              <div class="flex ml-[15px]">
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/8dd09c7ef8b46affbd07702a528f0af9@2x.png" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block w-[100%] object-cover w-[36px] h-[36px]" src="assets/avatar/20.jpg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block w-[100%] object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/egozentrische-person.jpg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/28b56ebe831c3dd2dbe9b01da9da4971.jpeg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px] " src="assets/avatar/james-segil.jpg" alt="icon">
+                </div>
+              </div>
+
+              <div class="flex items-center text-[#ADADAD] text-[12px] font-['Open Sans']">
+                <div class="flex">
+                  <img class="mr-[2px]" src="assets/cards/icon/Icon feather-message-circle.svg"
+                    alt="feather-message-circle">
+                  <p>2</p>
+                </div>
+                <p class="ml-[13px]">Nov 21, 2019</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-[300px]">
+          <div style="background-image: url('assets/cards/pic/Intersection 1-7@2x.png');"
+            class="h-[180px] flex justify-between bg-no-repeat bg-cover bg-center">
+            <a href="#" class="ml-[12px] mt-[12px]">
+              <img src="assets/cards/icon/Group 31.svg" alt="settings">
+            </a>
+            <a href="#" class="mr-[12px] mt-[12px]">
+              <img src="assets/cards/icon/icon aproved.svg" alt="">
+            </a>
+          </div>
+
+          <div class="px-[19px] py-[15px] bg-[#FFFFFF]">
+            <div class="font-['Nunito']">
+              <h3 class="text-[#4D4F5C] text-[14px] font-bold">
+                CityBee new cars presentation
+              </h3>
+              <p class="mt-[2px] text-[12px] text-[#555555] font-normal">4 HTML / 1 static / 4 GIF</p>
+            </div>
+
+            <div class="mt-[12px] flex items-end justify-between">
+              <div class="flex ml-[15px]">
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/8dd09c7ef8b46affbd07702a528f0af9@2x.png" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block w-[100%] object-cover w-[36px] h-[36px]" src="assets/avatar/20.jpg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block w-[100%] object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/egozentrische-person.jpg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/28b56ebe831c3dd2dbe9b01da9da4971.jpeg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px] " src="assets/avatar/james-segil.jpg" alt="icon">
+                </div>
+              </div>
+
+              <div class="flex items-center text-[#ADADAD] text-[12px] font-['Open Sans']">
+                <div class="flex">
+                  <img class="mr-[2px]" src="assets/cards/icon/Icon feather-message-circle.svg"
+                    alt="feather-message-circle">
+                  <p>2</p>
+                </div>
+                <p class="ml-[13px]">Nov 21, 2019</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-[300px]">
+          <div style="background-image: url('assets/cards/pic/Intersection 1@2x.png');"
+            class="h-[180px] flex justify-between bg-no-repeat bg-cover bg-center">
+            <a href="#" class="ml-[12px] mt-[12px]">
+              <img src="assets/cards/icon/Group 31.svg" alt="settings">
+            </a>
+            <a href="#" class="mr-[12px] mt-[12px]">
+              <img src="assets/cards/icon/icon aproved.svg" alt="">
+            </a>
+          </div>
+
+          <div class="px-[19px] py-[15px] bg-[#FFFFFF]">
+            <div class="font-['Nunito']">
+              <h3 class="text-[#4D4F5C] text-[14px] font-bold">
+                CityBee new cars presentation
+              </h3>
+              <p class="mt-[2px] text-[12px] text-[#555555] font-normal">4 HTML / 1 static / 4 GIF</p>
+            </div>
+
+            <div class="mt-[12px] flex items-end justify-between">
+              <div class="flex ml-[15px]">
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/8dd09c7ef8b46affbd07702a528f0af9@2x.png" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block w-[100%] object-cover w-[36px] h-[36px]" src="assets/avatar/20.jpg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block w-[100%] object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/egozentrische-person.jpg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px]"
+                    src="assets/avatar/28b56ebe831c3dd2dbe9b01da9da4971.jpeg" alt="icon">
+                </div>
+                <div
+                  class="w-[36px] h-[36px] ml-[-15px] border border-solid border-[#FFFFFF] rounded-full overflow-hidden">
+                  <img class="block object-cover w-[36px] h-[36px] " src="assets/avatar/james-segil.jpg" alt="icon">
+                </div>
+              </div>
+
+              <div class="flex items-center text-[#ADADAD] text-[12px] font-['Open Sans']">
+                <div class="flex">
+                  <img class="mr-[2px]" src="assets/cards/icon/Icon feather-message-circle.svg"
+                    alt="feather-message-circle">
+                  <p>2</p>
+                </div>
+                <p class="ml-[13px]">Nov 21, 2019</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <a href="index.html"
+        class="flex items-center justify-center  w-[182.41px] h-[38.22px] mt-[90px] mb-[32px] bg-[#EBEBEB] rounded">
+        <img src="assets//back to - icon.svg" alt="back-to">
+        <p class="font-['Source_Sans_Pro'] text-[#777777] ml-[17px] text-[16px]">Back to projects</p>
+      </a>
+    </div>
+  </main>
+
+</body>
+
+</html>
